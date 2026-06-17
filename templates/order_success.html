@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Order Successful</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4,#fbc2eb);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.success-card{
+    width:500px;
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.tick-circle{
+    width:100px;
+    height:100px;
+    background:#4CAF50;
+    border-radius:50%;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:50px;
+    color:white;
+}
+
+h1{
+    color:#4CAF50;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:25px;
+}
+
+.order-box{
+    background:#f8f9fa;
+    padding:20px;
+    border-radius:15px;
+    margin-top:20px;
+    text-align:left;
+}
+
+.order-box p{
+    margin:12px 0;
+    font-size:17px;
+}
+
+.label{
+    font-weight:bold;
+    color:#333;
+}
+
+.amount{
+    color:#ff5722;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.status{
+    color:#4CAF50;
+    font-weight:bold;
+}
+
+.btn-container{
+    margin-top:30px;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    padding:12px 25px;
+    border-radius:8px;
+    margin:5px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.home-btn{
+    background:#2196F3;
+}
+
+.home-btn:hover{
+    transform:scale(1.05);
+}
+
+.order-btn{
+    background:#FF9800;
+}
+
+.order-btn:hover{
+    transform:scale(1.05);
+}
+
+.footer-text{
+    margin-top:20px;
+    color:#777;
+    font-size:14px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="success-card">
+
+    <div class="tick-circle">
+        ✓
+    </div>
+
+    <h1>Order Placed Successfully!</h1>
+
+    <p class="subtitle">
+        Thank you for ordering with us.
+    </p>
+
+    <div class="order-box">
+
+        <p>
+            <span class="label">Order ID :</span>
+            #{{ order.id }}
+        </p>
+
+        <p>
+            <span class="label">Payment Method :</span>
+            {{ order.payment_method }}
+        </p>
+
+        <p>
+            <span class="label">Total Amount :</span>
+            <span class="amount">
+                ₹ {{ order.total_amount }}
+            </span>
+        </p>
+
+        <p>
+            <span class="label">Order Status :</span>
+            <span class="status">
+                {{ order.status }}
+            </span>
+        </p>
+
+        <p>
+            <span class="label">Order Date :</span>
+            {{ order.order_date }}
+        </p>
+
+    </div>
+
+    <div class="btn-container">
+
+        <a href="{% url 'hotels' %}" class="btn home-btn">
+            🍽 Order More Food
+        </a>
+
+        <a href="{% url 'orders' %}" class="btn order-btn">
+            📦 My Orders
+        </a>
+
+    </div>
+
+    <p class="footer-text">
+        Your food is being prepared and will be delivered soon.
+    </p>
+
+</div>
+
+</body>
+</html>
