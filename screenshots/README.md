@@ -1,11 +1,16 @@
 Screenshots of the project
-<img width="1366" height="609" alt="food10" src="https://github.com/user-attachments/assets/a9defa4d-3f60-41ff-a204-7ada6be37964" />
-<img width="1156" height="655" alt="food9" src="https://github.com/user-attachments/assets/e0149d85-15c4-4e7c-8117-adb8004f2867" />
-<img width="1357" height="675" alt="food8" src="https://github.com/user-attachments/assets/75a8b77b-09ad-4b9e-b16b-4e05dbb4c147" />
-<img width="1324" height="677" alt="food7" src="https://github.com/user-attachments/assets/9a2b2933-3970-4d21-8e1d-40b8700cc18a" />
-<img width="1365" height="671" alt="food6" src="https://github.com/user-attachments/assets/db4ba095-2f65-4615-a6e0-823493d95927" />
-<img width="1330" height="669" alt="food5" src="https://github.com/user-attachments/assets/951107de-40fb-4583-a3f8-fd4ee6e6db11" />
-<img width="1352" height="679" alt="food4" src="https://github.com/user-attachments/assets/3cd87dcb-eb7b-4185-8c34-b35a6aa23bad" />
-<img width="1324" height="686" alt="food3" src="https://github.com/user-attachments/assets/f4d0886b-e717-4028-ba90-326cf31bd0b7" />
-<img width="1352" height="692" alt="food2" src="https://github.com/user-attachments/assets/81822849-d5c9-4968-8c1a-6eac9278387e" />
-<img width="1358" height="653" alt="food1" src="https://github.com/user-attachments/assets/1444a9dc-e1ce-407e-bf23-1f6a6c2eb4a6" />
+<img width="1358" height="653" alt="food1" src="https://github.com/user-attachments/assets/ba80db07-e20a-4f89-8804-5ea58c92aea0" />
+<img width="1352" height="692" alt="food2" src="https://github.com/user-attachments/assets/a1e4d9c8-80c0-4083-a532-2bc294794601" />
+<img width="1324" height="686" alt="food3" src="https://github.com/user-attachments/assets/9bfd304a-3b5a-4c5a-8276-c02fdbcb983d" />
+<img width="1352" height="679" alt="food4" src="https://github.com/user-attachments/assets/9b6acebd-10ca-44a4-b9ef-bef46d426f77" />
+<img width="1330" height="669" alt="food5" src="https://github.com/user-attachments/assets/e5fe33c1-851b-4f0a-8c09-946504cc9363" />
+<img width="1365" height="671" alt="food6" src="https://github.com/user-attachments/assets/64ce489e-9fe4-4833-a28c-5e8003acb4f1" />
+<img width="1324" height="677" alt="food7" src="https://github.com/user-attachments/assets/0333df6b-a266-4034-b3fa-f6ad6db5ab8c" />
+<img width="1357" height="675" alt="food8" src="https://github.com/user-attachments/assets/142d6bd6-82ab-43a0-b429-73863d3e1eba" />
+<img width="1156" height="655" alt="food9" src="https://github.com/user-attachments/assets/a6786267-4797-42c9-a58f-6a99ea3187df" />
+<img width="1366" height="609" alt="food10" src="https://github.com/user-attachments/assets/6370b420-7887-4321-bde5-55b9640439d9" />
+
+
+
+
+
